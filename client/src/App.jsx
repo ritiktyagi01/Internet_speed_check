@@ -176,7 +176,7 @@ const App = () => {
             className="
           px-6 py-3 rounded-lg bg-indigo-600 text-white max-w-sm mx-auto
           hover:bg-indigo-700 transition
-          disabled:opacity-50
+          disabled:opacity-50 cursor-pointer
         "
           >
             {loading.download ? 'Measuring...' : 'Start Download Test'}
@@ -198,7 +198,7 @@ const App = () => {
             className="
           px-6 py-3 rounded-lg bg-indigo-600 text-white max-w-sm mx-auto
           hover:bg-indigo-700 transition
-          disabled:opacity-50
+          disabled:opacity-50  cursor-pointer
         "
           >
             {loading.upload ? 'Measuring...' : 'Start UploadTest'}
@@ -215,7 +215,7 @@ const App = () => {
             className="
           px-6 py-3 rounded-lg bg-indigo-600 text-white max-w-sm mx-auto
           hover:bg-indigo-700 transition
-          disabled:opacity-50
+          disabled:opacity-50  cursor-pointer
         "
           >
             {loading.ping ? 'Measuring...' : 'Start Ping Test'}
