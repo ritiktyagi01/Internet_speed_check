@@ -207,7 +207,7 @@ const App = () => {
 
         {/* Ping */}
         <div className='flex justify-center flex-col gap-4'>
-          <SpeedGauge label="Latency (Ping)" value={ping} unit="ms" color="#b45309" max={300}
+          <SpeedGauge label="Latency (Ping)" value={ping} unit="ms" color="#b45309" max={10000}
           />
           <button
             onClick={measureping}
